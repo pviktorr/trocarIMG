@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --imagem1: url('./img/groundon.png');
+    --imagem2: url('./img/groundon2.png');
+    --imagem3: url('./img/kyogre.png');
+    --imagem4: url('./img/kyogre2.png');
+    --imagem5: url('./img/rayquaza.png');
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: var(--imagem1);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#trocarImagem{
+    padding: 16px 32px;
+    font-size: 24px;
+    cursor: pointer;
+}
